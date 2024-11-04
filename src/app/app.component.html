@@ -1,3 +1,15 @@
-<h1>Olá mundo!</h1>
+<nav class="navbar">
+  <div class="nav-brand">
+    <a routerLink="/home">Segurança da Informação</a>
+  </div>
+  <div class="nav-links">
+    <a routerLink="/home" routerLinkActive="active">Início</a>
+    <a routerLink="/contato" routerLinkActive="active">Contato</a>
+    <a routerLink="/sobre" routerLinkActive="active">Sobre</a>
+    <a routerLink="/pagina-inexistente" routerLinkActive="active">Teste 404</a>
+  </div>
+</nav>
 
-<router-outlet />
+<main class="content">
+  <router-outlet />
+</main>
